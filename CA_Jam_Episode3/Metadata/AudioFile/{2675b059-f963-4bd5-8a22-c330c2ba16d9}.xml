@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2675b059-f963-4bd5-8a22-c330c2ba16d9}">
+		<property name="assetPath">
+			<value>SFX/tsk_projector_hit-002.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.99837500000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80f3121e-b7fa-4292-b08b-5dd1d05aeeec}</destination>
+		</relationship>
+	</object>
+</objects>
