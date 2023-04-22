@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{663255f9-a4ee-469d-b7f7-b68ead5be1bf}">
+		<property name="assetPath">
+			<value>SFX/tsk_malware.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.292666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80f3121e-b7fa-4292-b08b-5dd1d05aeeec}</destination>
+		</relationship>
+	</object>
+</objects>
