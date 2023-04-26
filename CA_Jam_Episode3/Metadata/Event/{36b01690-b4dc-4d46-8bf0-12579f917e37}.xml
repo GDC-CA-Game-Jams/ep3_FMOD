@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2145a4db-3dde-4945-a5ff-da869d99b882}">
+		<relationship name="modulators">
+			<destination>{c94d996b-f631-4dac-bdfb-8497711b1604}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{6160d991-f315-4908-891d-74c5e4fc4b28}</destination>
 		</relationship>
@@ -97,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e5fc581b-695a-42e9-8b92-a62eacf474ff}">
+		<property name="volume">
+			<value>6.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -124,8 +130,32 @@
 			<destination>{e6ef4192-4a7a-45c1-a2d7-48f776cac8da}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{c94d996b-f631-4dac-bdfb-8497711b1604}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>500</value>
+		</property>
+		<property name="decayTime">
+			<value>3400</value>
+		</property>
+		<property name="releaseTime">
+			<value>2000</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.792639732</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{6160d991-f315-4908-891d-74c5e4fc4b28}">
 		<relationship name="effects">
+			<destination>{60ada1eb-49ec-4b96-a0ca-22d809a31cd0}</destination>
 			<destination>{1019af2f-6404-4aaa-afe7-0d584e4a67dc}</destination>
 		</relationship>
 	</object>
@@ -137,6 +167,43 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2618d5b1-793e-4bca-9061-a217d60d4afb}" />
+	<object class="PitchShifterEffect" id="{60ada1eb-49ec-4b96-a0ca-22d809a31cd0}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="pitch">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{42ed342e-c277-4191-8ef6-44261e6fabd7}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{1019af2f-6404-4aaa-afe7-0d584e4a67dc}" />
 	<object class="MixerBusFader" id="{fe8de118-a41b-4792-be6c-a37e3aaec012}" />
+	<object class="ADSRModulator" id="{42ed342e-c277-4191-8ef6-44261e6fabd7}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="initialValue">
+			<value>-71.1111145</value>
+		</property>
+		<property name="attackShape">
+			<value>0.652652264</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="sustainValue">
+			<value>15</value>
+		</property>
+		<property name="releaseShape">
+			<value>1</value>
+		</property>
+		<property name="finalValue">
+			<value>-82.2222214</value>
+		</property>
+	</object>
 </objects>
