@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{58f67e82-d132-4333-ac32-e3260381d14a}">
+	<object class="AudioFile" id="{abf77f91-e98b-4dcb-9176-82daff1e37f2}">
 		<property name="assetPath">
-			<value>Music/Stakeholders (Menu Theme).wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>UI/ui_tick_04.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>115.2</value>
+			<value>0.12514583333333335</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{80f3121e-b7fa-4292-b08b-5dd1d05aeeec}</destination>

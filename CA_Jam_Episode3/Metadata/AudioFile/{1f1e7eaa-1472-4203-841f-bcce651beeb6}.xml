@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1f1e7eaa-1472-4203-841f-bcce651beeb6}">
 		<property name="assetPath">
-			<value>Coorparate Music (Stem Version)_Layer1Loop.wav</value>
+			<value>Music/Coorparate Music (Stem Version)_Layer1Loop.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

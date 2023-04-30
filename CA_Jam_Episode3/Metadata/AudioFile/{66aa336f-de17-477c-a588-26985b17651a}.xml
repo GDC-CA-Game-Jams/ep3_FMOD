@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{66aa336f-de17-477c-a588-26985b17651a}">
 		<property name="assetPath">
-			<value>Synergize  (Stem Version)_Layer1LoopA.wav</value>
+			<value>Music/Synergize  (Stem Version)_Layer1LoopA.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
