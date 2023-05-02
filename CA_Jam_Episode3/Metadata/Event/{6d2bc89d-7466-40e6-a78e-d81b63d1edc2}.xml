@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6d2bc89d-7466-40e6-a78e-d81b63d1edc2}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>ui_hourtick</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{0d253059-288b-4223-8dcc-43a568314292}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1b8e910d-b075-452b-8256-072ae6907b48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{248d64f0-61cc-4cc9-9694-0de7bb4a6671}">

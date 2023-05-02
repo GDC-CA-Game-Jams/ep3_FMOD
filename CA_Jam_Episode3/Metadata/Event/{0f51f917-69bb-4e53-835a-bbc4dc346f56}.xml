@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0f51f917-69bb-4e53-835a-bbc4dc346f56}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>ui_finish_task</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{6b63e4c1-86c0-4b90-8465-4ff6498c0743}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1b8e910d-b075-452b-8256-072ae6907b48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{585cdc9b-3ff3-4288-940b-aab1087f300e}">

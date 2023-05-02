@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dc2585d8-ed0c-4232-8992-0a37f320481b}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>ui_hourstrike</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{a7bde965-e653-4cc8-beda-e448aa152701}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1b8e910d-b075-452b-8256-072ae6907b48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{894ae6bb-cd43-448c-bb79-3eaa9e3cd367}">
