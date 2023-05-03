@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e2d08062-b864-4e2b-9cb1-64629079fcfa}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>ui_finish_sticky_task</value>
 		</property>

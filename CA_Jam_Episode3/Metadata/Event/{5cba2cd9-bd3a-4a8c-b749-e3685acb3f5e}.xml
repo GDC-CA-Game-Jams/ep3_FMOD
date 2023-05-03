@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5cba2cd9-bd3a-4a8c-b749-e3685acb3f5e}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>mx_gameplay_lp</value>
 		</property>
@@ -42,6 +45,9 @@
 		<relationship name="parameters">
 			<destination>{0d40bc48-9bb3-4d38-8c27-12913450043f}</destination>
 			<destination>{7081cd97-f78a-403b-8992-6f37868335ce}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1b8e910d-b075-452b-8256-072ae6907b48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{a00c20b2-2150-4ae9-ba79-70d6f0c77cc2}">
@@ -182,6 +188,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fcf0ce8f-d232-4600-a69c-5ad2819d0bae}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{b95887da-ae8a-4cae-956c-21537541c1a6}</destination>
 		</relationship>
@@ -686,6 +695,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{b95887da-ae8a-4cae-956c-21537541c1a6}">
 		<relationship name="effects">
+			<destination>{d0ca68fa-3979-481a-90cb-25a0c9b9d695}</destination>
 			<destination>{da973164-cdc6-4cf8-82c0-fcf7172862ee}</destination>
 		</relationship>
 	</object>
@@ -886,6 +896,26 @@
 		<relationship name="parameter">
 			<destination>{8667d129-2b8e-4f0b-a5ab-3ff5c455cd05}</destination>
 		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{d0ca68fa-3979-481a-90cb-25a0c9b9d695}">
+		<property name="filterTypeA">
+			<value>2</value>
+		</property>
+		<property name="filterTypeB">
+			<value>5</value>
+		</property>
+		<property name="frequencyA">
+			<value>2347.55957</value>
+		</property>
+		<property name="frequencyB">
+			<value>290</value>
+		</property>
+		<property name="qualityA">
+			<value>0.655046582</value>
+		</property>
+		<property name="qualityB">
+			<value>0.50773567</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{da973164-cdc6-4cf8-82c0-fcf7172862ee}" />
 	<object class="AutomationPoint" id="{5218cdc9-d33f-4b44-b9b8-a0d37caf6d66}">
