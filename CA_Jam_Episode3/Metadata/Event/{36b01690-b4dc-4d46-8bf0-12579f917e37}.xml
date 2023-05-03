@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{36b01690-b4dc-4d46-8bf0-12579f917e37}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>obj_elevator_run_lp</value>
 		</property>

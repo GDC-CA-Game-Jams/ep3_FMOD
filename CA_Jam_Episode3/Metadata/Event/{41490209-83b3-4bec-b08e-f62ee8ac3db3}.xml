@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{41490209-83b3-4bec-b08e-f62ee8ac3db3}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>obj_elevator_sequence</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{7c64a430-07b5-4bb1-9003-d8067c13a883}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1b8e910d-b075-452b-8256-072ae6907b48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{fd469a6f-7a71-4565-8e16-c912efbff03b}">
