@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c31cdd36-96d9-4d1e-a697-646d6e95966a}">
+		<property name="assetPath">
+			<value>Dialog/dx_b_npc_chatter_04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.035958333333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80f3121e-b7fa-4292-b08b-5dd1d05aeeec}</destination>
+		</relationship>
+	</object>
+</objects>

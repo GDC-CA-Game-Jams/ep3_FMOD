@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f7a9d6a0-de60-4b46-b821-3a13cf85c5f0}">
+		<property name="assetPath">
+			<value>Dialog/dx_b_npc_spotted_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.49397916666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80f3121e-b7fa-4292-b08b-5dd1d05aeeec}</destination>
+		</relationship>
+	</object>
+</objects>
