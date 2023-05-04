@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{783bce45-8aaf-4523-bd83-c1a1a87f99c5}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>dx_b_NPC_spotted</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{52f57d9b-d552-4a6d-9d92-9b96a63f5116}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1b8e910d-b075-452b-8256-072ae6907b48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{748d7fc9-2a66-470d-8b03-c5fc4f8a2f41}">
