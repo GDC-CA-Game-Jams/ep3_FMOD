@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{90f10908-6b05-491b-ba02-76db11f84860}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>tsk_coffee</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{4b5a70dc-5746-44c6-97cc-a12888e20454}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1b8e910d-b075-452b-8256-072ae6907b48}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{c809bc65-8748-469d-948b-8420d07dfaa4}">
